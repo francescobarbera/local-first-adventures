@@ -10,6 +10,11 @@ The application is a simple counter that shows the potential of local-first soft
 - **Conflict Resolution**: Intelligent conflict resolution mechanisms to handle data discrepancies.
 - **Real-time Collaboration**: Collaborate with others in real-time while maintaining offline-first principles.
 
+The project uses:
+- [Vite](https://vitejs.dev/) for the frontend.
+- [TinyBase](https://tinybase.org/) as local first data store.
+- [YJS](https://yjs.dev/) to handle the real-time collaboration.
+
 ## Installation
 
 Install the dependencies:
@@ -20,8 +25,10 @@ yarn install
 
 ## Usage
 
-To start the development server, run:
+To start the development vite server and the yjs server, run:
 
 ```
 yarn dev
+
+PORT=1234 node ./node_modules/y-websocket/bin/server.cjs
 ```
