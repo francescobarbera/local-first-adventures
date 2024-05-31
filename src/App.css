@@ -1,0 +1,22 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    margin-top: 20px;
+    top: 0;
+}
+
+.counter-container {
+    margin-top: 50px;
+    font-size: 10em;
+    font-weight: bold;
+}
