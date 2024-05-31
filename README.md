@@ -1,4 +1,4 @@
-# local-first-adventures
+# Local first adventures
 
 ## Introduction
 The project leverages the principles of local-first software to ensure seamless offline support and enhanced user experience.
