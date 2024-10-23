@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import { createStore } from "tinybase";
 import { Provider } from "tinybase/ui-react";
 import * as Y from "yjs";
-import { createYjsPersister } from "tinybase/lib/persisters/persister-yjs";
-import { createLocalPersister } from "tinybase/lib/persisters/persister-browser";
+import { createYjsPersister } from 'tinybase/persisters/persister-yjs';
+import { createLocalPersister } from "tinybase/persisters/persister-browser";
 import { WebsocketProvider } from "y-websocket";
 
 const doc = new Y.Doc();
